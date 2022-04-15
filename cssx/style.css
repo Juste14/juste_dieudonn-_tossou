@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@300;400;500;600&display=swap');
+
+.section .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:small;
+}
+
+
+/*  début parti section profil */
+
+
+.section .container .profil{
+    background-color:#dcdcfa;
+    width: 50vh;
+    height: 135vh;
+    position: relative;
+}
+.section .container .profil img{
+    width: 40%;
+    border: 3px solid rgb(155, 7, 7);
+    border-radius: 100%;
+    margin-left: 35%;
+}
+.section .container .profil .point{
+    display: flex;
+}
+
+.section .container .profil .point div{
+    height: 15px;
+    width: 5%;
+    border: 1px solid rgb(155, 7, 7) ;
+    margin: 0 2%;
+    border-radius: 100%;
+}
+.section .container .profil .point .francais , .a , .b ,.c , .d{
+    background-color: rgb(155, 7, 7);
+}
+.section .container .profil .point .fon , .f , .g ,.h {
+    background-color: rgb(155, 7, 7);
+}
+.section .container .profil .point .francais , .k , .l ,.m {
+    background-color: rgb(155, 7, 7);
+}
+.section .container .profil .point .francais , .p , .q {
+    background-color: rgb(155, 7, 7);
+}
+.section .container .profil h3{
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgb(155, 7, 7);
+    color: white;
+    margin: 5% 10% 10% ;
+    padding: 2% 0 2% 0;
+    font-size: 1em;  
+}
+.section .container li{
+    margin-bottom: 2%;
+}
+
+/*  fin parti section profil */
+
+
+
+
+
+
+/*  début parti section info */
+.section .container .info{
+    background: #f2f2fa;
+    width: 70vh;
+    height: 135vh;
+    border-left: 4px solid rgb(155, 7, 7);
+}
+.section .container .info h3{
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgb(155, 7, 7);
+    color: white;
+    margin: 5% 10% 10% ;
+    padding: 2% 0 2% 0;
+    font-size: 1em; 
+    margin-bottom: 0.2px;
+}
+.section .container .info .text-1{
+    text-align: justify;
+    margin: 3% 5% 0 5%;
+}
+
+.section .container .info  .disp{
+    display: flex;
+}
+.section .container .info  .disp .sep{
+    width: 4px;
+    background-color: rgb(155, 7, 7);
+    margin: 0 15px 0 15px;
+}
+.section .container .info  li p{
+    margin-left:15px;
+}
+.comp{
+    display: flex;
+}
+
+
+
+.section .container .info .nom{
+      text-align: center;
+      margin-bottom: 8px;
+}
+.section .container .info .nom b{
+    color: rgb(155, 7, 7) ;
+}
+.section .container .info  .trait{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section .container .info  .trait-1{
+    
+    border: 2px solid rgb(155, 7, 7);
+    width: 15%;
+}
+.section .container .info  .trait-2{
+    
+    border: 2px solid rgb(155, 7, 7);
+    width: 20px;
+    padding-bottom: 8px;
+    background-color: rgb(155, 7, 7);
+    border-radius: 50px;
+}
+.section .container .info  .trait-3{
+    
+    border: 2px solid rgb(155, 7, 7);
+    width: 15%;
+}
+.section .container .info  .trait-point-1{
+    
+    border: 2px solid rgb(155, 7, 7);
+    width: 2%;
+    padding-bottom: 8px;
+    background-color: rgb(155, 7, 7);
+    border-radius: 100%;
+}
+.section .container .info  .trait-point-2{
+    
+    border: 2px solid rgb(155, 7, 7);
+    width: 2%;
+    padding-bottom: 8px;
+    background-color: rgb(155, 7, 7);
+    border-radius: 100%;
+}
+/*  fin parti section info */
+
+
+
+
+
+
+
+
+
+
+
+
+
